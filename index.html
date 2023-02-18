@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Libary Management System</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Libary Management System</h1>
+    <div>
+    <label for="Book Name" class="from-label">Book Name</label>
+    <input type="text" class="from-control" id="Book Name"></div>
+    <div>
+    <label for="Issued To" class="from-label">Issued To</label>
+    <input type="text" class="from-control" id="Issued To">
+     <div>  <button class="issue">Issue Book</button></div>
+
+
+        
+            <table>
+            <thead>
+                    <tr class="col">
+                    <th>Id</th>
+                    <th>Book Name</th>
+                    <th>Issued To</th>
+                    <th>Issued Date and Time</th>
+                    <th>STatus</th></tr>
+            
+            </thead>
+                
+            </tr>
+            <tr><td>1</td>
+            <td>Percy Jackson</td>
+        <td>Avi Vashishta</td>
+    <td>15/02/2023at5:09Pm</td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>Wimpy Kid</td>
+        <td>Jayesh Sadwani</td>
+         <td>15/02/2023at5:20</td></tr>
+          
+                   <tbody id="issued-book-table"></tbody> 
+            </thead> 
+            
+            </table>
+     
+        </div>
+
+ <script src="./Script.js"></script>
+    
+</body>
+</html>
